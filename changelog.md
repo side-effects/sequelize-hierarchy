@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.0.6
+
+Refactor:
+
+* Added an example TS class into lib/types.ts so that all of the methods are automatically in the model as well
+* PLEASE CONFIRM THAT IT WORKS CORRECTLY: Made bulk creation much much more efficient where a whole layer in the tree can be created with O*2 queries instead of O*2N.
+
 ## 2.0.4
 
 Bug fixes:
