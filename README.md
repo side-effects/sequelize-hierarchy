@@ -286,7 +286,7 @@ See [changelog.md](https://github.com/fizure/sequelize-hierarchy/blob/master/cha
 
 ## Issues
 
-If you discover a bug, please raise an issue on Github. https://github.com/overlookmotel/sequelize-hierarchy/issues
+If you discover a bug, please raise an issue on Github. https://github.com/fizure/sequelize-hierarchy/issues
 
 ## Contribution
 
