@@ -1,5 +1,7 @@
 # Changelog
 
+## 3.0.0
+* Add Sequelize v6 support
 ## 2.0.6
 
 Refactor:

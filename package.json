@@ -1,6 +1,6 @@
 {
   "name": "sequelize-hierarchy-ts",
-  "version": "2.0.6",
+  "version": "3.0.0",
   "description": "Nested hierarchies for Sequelize",
   "main": "index.js",
   "author": "Fizure",
@@ -12,6 +12,7 @@
     "url": "https://github.com/fizure/sequelize-hierarchy/issues"
   },
   "dependencies": {
+    "bluebird": "^3.7.2",
     "is-generator": "^1.0.3",
     "lodash": "^4.17.11",
     "semver-select": "^1.1.0"
@@ -30,13 +31,13 @@
     "eslint-plugin-import": "^2.17.2",
     "istanbul": "^0.4.5",
     "mocha": "^6.1.4",
-    "mysql2": "^1.6.5",
-    "pg": "^7.10.0",
-    "pg-hstore": "^2.3.2",
+    "mysql2": "^2.3.3",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
     "pg-native": "^3.0.0",
-    "sequelize": "^5.7.5",
-    "sqlite3": "^4.0.6",
-    "tedious": "^6.1.1"
+    "sequelize": "^6.19.0",
+    "sqlite3": "^5.0.6",
+    "tedious": "^14.4.0"
   },
   "keywords": [
     "sequelize",
@@ -61,7 +62,7 @@
     "ci": "if [ $COVERAGE ]; then npm run coveralls; else npm test; fi"
   },
   "engines": {
-    "node": ">=8"
+    "node": "^14.17.0 || >=16.0.0"
   },
   "license": "MIT",
   "homepage": "https://github.com/fizure/sequelize-hierarchy#readme",
